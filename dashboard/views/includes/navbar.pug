@@ -1,0 +1,14 @@
+nav.navbar.navbar-expand-lg.navbar-light
+  .container-fluid
+    a.navbar-brand(href='/') TestBoard
+    button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbar.collapse.navbar-collapse
+      .navbar-nav
+        a.nav-link(href='/commands') 
+            i.fa-solid.fa-rectangle-terminal
+            span.ms-2 Commands
+      .navbar-nav.ms-auto
+        a.nav-link(href='/login') 
+            i.fa-solid.fa-right-to-bracket
+            span.ms-1 Login
